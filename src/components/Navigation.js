@@ -1,15 +1,17 @@
 import React from 'react'
-
+import {
+    Link,
+} from "react-router-dom";
 export default function Home() {
     return (
-        // <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        // <div className="container-fluid"> 
+      
         <>
             < div className="collapse" id="navbarToggleExternalContent" >
                 <div className="bg-dark p-4">
-                    <h3 className="text-white h4">About</h3>
-                    <h3 className="text-white h4">Blog</h3>
-                    <h3 className="text-white h4">Portfolio</h3>
+                    <h2><Link to='/home'className="text-white h4">Home</Link></h2>
+                    <h2><Link to='/about'className="text-white h4">About</Link></h2>
+                    <h2><Link to='/blog'className="text-white h4">Blog</Link></h2>
+                    <h2><Link to='/projects'className="text-white h4">Projects</Link></h2>
                 </div>
             </div >
             <nav className="navbar navbar-dark bg-dark">
@@ -26,8 +28,7 @@ export default function Home() {
                 </div>
             </nav>
         </>
-        // </div>
-        // </nav>
+        
 
 
 

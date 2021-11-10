@@ -1,16 +1,34 @@
 import Navigation from './Navigation.js'
 import Blog from './Blog.js'
-import Portfolio from './Portfolio.js'
+import Projects from './Projects.js'
+import About from './About.js'
+import Home from './Home.js'
 import 'bootstrap/dist/css/bootstrap.min.css';
+import {
+    BrowserRouter,
+    Routes,
+    Route
+} from "react-router-dom";
 
 
 function App() {
-  return (
-    <div className="App">
-      <Navigation />
-      <Blog />
-    </div>
-  );
+    return (
+        // <div className="App">
+        //   <Blog />
+        // </div>
+
+        <BrowserRouter>
+            <Navigation />
+            <Routes>
+                <Route path="/">
+                    <Route path="blog" element={<Blog />} />
+                    <Route path="projects" element={<Projects />} />
+                    <Route path="about" element={<About />} />
+                    <Route path="home" element={<Home />} />
+                </Route>
+            </Routes>
+        </BrowserRouter>
+    );
 }
 
 export default App;

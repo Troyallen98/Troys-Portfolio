@@ -6,10 +6,27 @@ html {
          -moz-background-size: cover;
          -o-background-size: cover;
          background-size: cover;
+        body{
+    background-color:unset !important;
+}
  }
 
-body{
-    background-color:unset !important;
+
+.card {
+    background-color: rgba(255, 255, 255, 0.75) !important;
+    text-align: center !important;
+    width: 45vw !important;
+    height: 260px !important;
+    position: absolute !important;
+    left: calc(25% - 20vw) !important;
+    bottom: calc(60% - 130px) !important;
+}
+#root {
+    position: relative;
+    height: 100vh;
+}
+a.card.link {
+
 }
 
 // after code ise done import styles.......other nonbootstrap

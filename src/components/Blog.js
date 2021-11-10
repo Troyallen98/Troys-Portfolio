@@ -96,7 +96,7 @@ export default function Blog() {
                         {' '}
                                 </p>
 
-                                <footer className="blockquote-footer">
+                                <footer className="blockquote-footer mt-2y">
                                     <cite title="Source Title"> Git, GitHub</cite>
                                 </footer>
                             </blockquote>
@@ -122,7 +122,7 @@ export default function Blog() {
 
                                     {' '}
                                 </p>
-                                <footer className="blockquote-footer">
+                                <footer className="blockquote-footer mt-3">
                                     <cite title="Source Title">HTML CSS and JavaScript</cite>
                                 </footer>
                             </blockquote>
