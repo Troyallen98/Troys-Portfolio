@@ -6,28 +6,31 @@ html {
          -moz-background-size: cover;
          -o-background-size: cover;
          background-size: cover;
-        body{
-    background-color:unset !important;
-}
  }
 
+body{
+    background-color:unset !important;
+}
 
-.card {
+
+.card.foobar {
     background-color: rgba(255, 255, 255, 0.75) !important;
     text-align: center !important;
     width: 45vw !important;
-    height: 260px !important;
+    height: 240px !important;
     position: absolute !important;
     left: calc(25% - 20vw) !important;
-    bottom: calc(60% - 130px) !important;
+    bottom: calc(68% - 120px) !important;
 }
 #root {
     position: relative;
     height: 100vh;
 }
-a.card.link {
 
+.display-5 {
+margin-top: 28px;
 }
+
 
 // after code ise done import styles.......other nonbootstrap
 @import '../../node_modules/bootstrap/scss/bootstrap';
