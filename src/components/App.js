@@ -12,6 +12,7 @@ import {
 
 
 function App() {
+   
     return (
         // <div className="App">
         //   <Blog />
@@ -27,6 +28,7 @@ function App() {
                     <Route path="/" element={<Home />} />
                 </Route>
             </Routes>
+            
         </BrowserRouter>
     );
 }
