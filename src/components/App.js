@@ -1,7 +1,7 @@
 import Navigation from './Navigation.js'
 import Blog from './Blog.js'
 import Projects from './Projects.js'
-import About from './About.js'
+import Contact from './Contact.js'
 import Home from './Home.js'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {
@@ -23,7 +23,7 @@ function App() {
                 <Route path="/">
                     <Route path="blog" element={<Blog />} />
                     <Route path="projects" element={<Projects />} />
-                    <Route path="about" element={<About />} />
+                    <Route path="contact" element={<Contact />} />
                     <Route path="/" element={<Home />} />
                 </Route>
             </Routes>

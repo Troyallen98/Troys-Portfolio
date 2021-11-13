@@ -8,7 +8,7 @@ export default function Home() {
                 <Card.Body>
                     <Card.Title className="display-4">Hello, I'm Troy.</Card.Title>
                     <Card.Text className="display-5">
-                        Welcome to my portfolio.
+                        Welcome to my web portfolio.
                     </Card.Text>
             
                 </Card.Body>

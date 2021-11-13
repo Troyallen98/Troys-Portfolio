@@ -4,14 +4,14 @@ import {
 } from "react-router-dom";
 export default function Home() {
     return (
-      
+
         <>
-            < div className="collapse" id="navbarToggleExternalContent" >
+            < div className="collapse dud" id="navbarToggleExternalContent" >
                 <div className="bg-dark p-4">
-                    <h2><Link to='/'className="text-white h4">Home</Link></h2>
-                    <h2><Link to='/about'className="text-white h4">About</Link></h2>
-                    <h2><Link to='/blog'className="text-white h4">Blog</Link></h2>
-                    <h2><Link to='/projects'className="text-white h4">Projects</Link></h2>
+                    <h2><Link to='/' className="text-white h4">Home</Link></h2>
+                    <h2><Link to='/contact' className="text-white h4">Contact</Link></h2>
+                    <h2><Link to='/blog' className="text-white h4">Blog</Link></h2>
+                    <h2><Link to='/projects' className="text-white h4">Projects</Link></h2>
                 </div>
             </div >
             <nav className="navbar navbar-dark bg-dark">
