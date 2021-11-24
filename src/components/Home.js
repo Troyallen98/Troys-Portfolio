@@ -11,7 +11,7 @@ export default function Home() {
                         Welcome to my web portfolio.
                     </Card.Text>
             
-                </Card.Body>
+                </Card.Body> 
             </Card>
     
     )

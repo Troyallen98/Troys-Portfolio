@@ -1,12 +1,11 @@
 import React from 'react'
-import {
-    Link,
-} from "react-router-dom";
+import { Link } from "react-router-dom";
+
 export default function Home() {
     return (
 
         <>
-            < div className="collapse dud" id="navbarToggleExternalContent" >
+            <div className="collapse dud" id="navbarToggleExternalContent" >
                 <div className="bg-dark p-4">
                     <h2><Link to='/' className="text-white h4">Home</Link></h2>
                     <h2><Link to='/contact' className="text-white h4">Contact</Link></h2>

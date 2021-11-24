@@ -3,7 +3,7 @@ import Blog from './Blog.js'
 import Projects from './Projects.js'
 import Contact from './Contact.js'
 import Home from './Home.js'
-import 'bootstrap/dist/css/bootstrap.min.css';
+
 import {
     BrowserRouter,
     Routes,
@@ -12,23 +12,18 @@ import {
 
 
 function App() {
-   
-    return (
-        // <div className="App">
-        //   <Blog />
-        // </div>
 
+    return (
         <BrowserRouter>
             <Navigation />
             <Routes>
                 <Route path="/">
                     <Route path="/blog" element={<Blog />} />
                     <Route path="/projects" element={<Projects />} />
-                    <Route path="/contact" element={<Contact />} />
-                    <Route path="/" element={<Home />} />
+                    <Route path="/contact" element={<Contact name='ian'/>} />
+                    <Route path="/" element={<Home />} />{/* use exact instead of anther path */}
                 </Route>
             </Routes>
-            
         </BrowserRouter>
     );
 }
