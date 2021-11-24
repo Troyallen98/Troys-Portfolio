@@ -8,6 +8,7 @@ import fishinghooks from '../styles/images/fishinghooks.png'
 import todo from '../styles/images/todo.png'
 import sillystory from '../styles/images/sillystory.png'
 import alarm from '../styles/images/alarm.png'
+
 function Portfolio() {
     return (
         <Container>
@@ -123,8 +124,8 @@ function Portfolio() {
                             </Card.Text>
                     </Card.Body>
                     <Card.Body>
-                        <Card.Link href="https://github.com/Troyallen98/Resturant">Github</Card.Link>
-                        <Card.Link href="https://react-resturant-page.web.app/">Live URL</Card.Link>
+                        <Card.Link href="https://github.com/Troyallen98/SillyStoriesGen">Github</Card.Link>
+                        <Card.Link href="https://troyallen98.github.io/SillyStoriesGen/">Live URL</Card.Link>
                     </Card.Body>
                 </Card>
                 <Card className='col-3 m-5 text-center'>
@@ -138,8 +139,8 @@ function Portfolio() {
                             </Card.Text>
                     </Card.Body>
                     <Card.Body>
-                        <Card.Link href="https://github.com/Troyallen98/Resturant">Github</Card.Link>
-                        <Card.Link href="https://react-resturant-page.web.app/">Live URL</Card.Link>
+                        <Card.Link href="https://github.com/Troyallen98/alarmClock">Github</Card.Link>
+                        <Card.Link href="https://troyallen98.github.io/alarmClock/">Live URL</Card.Link>
                     </Card.Body>
                 </Card>
             </Row>
