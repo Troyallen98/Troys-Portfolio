@@ -141,6 +141,7 @@ export default function Blog() {
                             </blockquote>
                         </Card.Body>
                     </Card>
+
                     <Card className='mt-5'>
                         <Card.Header><h3>What's Frustrating About Being Remote?</h3></Card.Header>
                         <Card.Body>
@@ -180,6 +181,31 @@ export default function Blog() {
                             </blockquote>
                         </Card.Body>
                     </Card>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
                     <Card className='mt-5'>
                         <Card.Header><h3>First Week Of In-Person</h3></Card.Header>
                         <Card.Body>
@@ -293,6 +319,24 @@ export default function Blog() {
                             </blockquote>
                         </Card.Body>
                     </Card>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
                     <Card className='mt-5'>
                         <Card.Header><h3>Opinions on React?</h3></Card.Header>
                         <Card.Body>
@@ -406,6 +450,41 @@ export default function Blog() {
                         </Card.Body>
                     </Card>
                     <Card className='mt-5'>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                        
                         <Card.Header><h3>Welcome to the Backside</h3></Card.Header>
                         <Card.Body>
                             <blockquote className="blockquote mb-0">

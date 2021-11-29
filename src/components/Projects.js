@@ -14,8 +14,8 @@ function Portfolio() {
         <Container>
             <Row style={{ display: 'flex', justifyContent: 'center' }} className='mt-5 mx-1'>
 
-                <Card className='col-3 m-5 text-center'>
-                    <Card.Img className='mt-2 img-fluid' variant="top" src={fishinghooks} />
+                <Card className='col-12 col-md-6 col-lg-4 col-xl-3 m-5 text-center' >
+                    <Card.Img id='cardImgBorder' className='mt-2 img-fluid' variant="top" src={fishinghooks} />
                     <Card.Body>
                         <Card.Title>Fishing Hooks</Card.Title>
                         <Card.Subtitle className="mb-2 text-muted">React JS</Card.Subtitle>
@@ -30,8 +30,8 @@ function Portfolio() {
                     </Card.Body>
                 </Card>
 
-                <Card className=' col-3 m-5 text-center'>
-                    <Card.Img className='mt-2 img-fluid' variant="top" src={todo} />
+                <Card className=' col-12 col-md-6 col-lg-4 col-xl-3 m-5 text-center'>
+                    <Card.Img id='cardImgBorder' className='mt-2 img-fluid' variant="top" src={todo} />
                     <Card.Body>
                         <Card.Title>ToDo List</Card.Title>
                         <Card.Subtitle className="mb-2 text-muted">React JS</Card.Subtitle>
@@ -46,8 +46,8 @@ function Portfolio() {
                     </Card.Body>
                 </Card>
 
-                <Card className='col-3 m-5 text-center'>
-                    <Card.Img className='mt-2 img-fluid' variant="top" src={weatherApp} />
+                <Card className='col-12 col-md-6 col-lg-4 col-xl-3 m-5 text-center' >
+                    <Card.Img id='cardImgBorder' className='mt-2 img-fluid' variant="top" src={weatherApp} />
                     <Card.Body>
                         <Card.Title>Weather App</Card.Title>
                         <Card.Subtitle className="mb-2 text-muted">JavaScript, CSS, Bootstrap, HTML</Card.Subtitle>
@@ -63,8 +63,8 @@ function Portfolio() {
                 </Card>
 
 
-                <Card className='col-3 m-5 text-center'>
-                    <Card.Img className='mt-2 img-fluid'variant="top" src={balls}/>
+                <Card className='col-12 col-md-6 col-lg-4 col-xl-3 m-5 text-center' >
+                    <Card.Img id='cardImgBorder' className='mt-2 img-fluid'variant="top" src={balls}/>
                     <Card.Body>
                         <Card.Title>Bouncing Balls</Card.Title>
                         <Card.Subtitle className="mb-2 text-muted">State managment</Card.Subtitle>
@@ -81,8 +81,8 @@ function Portfolio() {
 
 
 
-                <Card className='col-3 m-5 text-center'>
-                    <Card.Img className='mt-2 img-fluid' variant="top" src={mindReader} />
+                <Card className='col-12 col-md-6 col-lg-4 col-xl-3 m-5 text-center' >
+                    <Card.Img id='cardImgBorder' className='mt-2 img-fluid' variant="top" src={mindReader} />
                     <Card.Body>
                         <Card.Title>Mind Reader</Card.Title>
                         <Card.Subtitle className="mb-2 text-muted">React</Card.Subtitle>
@@ -97,8 +97,8 @@ function Portfolio() {
                     </Card.Body>
                 </Card>
 
-                <Card className='col-3 m-5 text-center'>
-                    <Card.Img className='mt-2 img-fluid' variant="top" src={resturant} />
+                <Card className='col-12 col-md-6 col-lg-4 col-xl-3 m-5 text-center' >
+                    <Card.Img id='cardImgBorder' className='mt-2 img-fluid' variant="top" src={resturant} />
                     <Card.Body>
                         <Card.Title>React Resturant</Card.Title>
                         <Card.Subtitle className="mb-2 text-muted">React JS</Card.Subtitle>
@@ -113,8 +113,8 @@ function Portfolio() {
                     </Card.Body>
                 </Card>
 
-                <Card className='col-3 m-5 text-center'>
-                    <Card.Img className='mt-2 img-fluid' variant="top" src={sillystory} />
+                <Card className='col-12 col-md-6 col-lg-4 col-xl-3 m-5 text-center' >
+                    <Card.Img id='cardImgBorder' className='mt-2 img-fluid' variant="top" src={sillystory} />
                     <Card.Body>
                         <Card.Title>Silly Stories</Card.Title>
                         <Card.Subtitle className="mb-2 text-muted">HTML, JS</Card.Subtitle>
@@ -128,8 +128,8 @@ function Portfolio() {
                         <Card.Link href="https://troyallen98.github.io/SillyStoriesGen/">Live URL</Card.Link>
                     </Card.Body>
                 </Card>
-                <Card className='col-3 m-5 text-center'>
-                    <Card.Img className='mt-2 img-fluid' variant="top" src={alarm} />
+                <Card className='col-12 col-md-6 col-lg-4 col-xl-3 m-5 text-center' >
+                    <Card.Img id='cardImgBorder' className='mt-2 img-fluid' variant="top" src={alarm} />
                     <Card.Body>
                         <Card.Title>Alarm Clock</Card.Title>
                         <Card.Subtitle className="mb-2 text-muted">HTML,CSS, JS</Card.Subtitle>
